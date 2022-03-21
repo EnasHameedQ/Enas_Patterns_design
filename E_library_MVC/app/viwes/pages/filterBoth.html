@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../assests/css/mediaquiry.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/css/style.css" />
+    <style>
+        .show {
+            display: block;
+        }
+        /* Style the buttons
+    */
+        
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #ddd;
+        }
+        
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <label for="searchbox" class="is-size-5">Search</label>
+        <input class='input mb-5' type="search" id="searchbox" placeholder="Live search keyword..">
+    </div>
+
+    <h2>Filter DIV Elements</h2>
+
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> عرض الكل</button>
+        <button class="btn" onclick="filterSelection('religious')"> كتب دينية</button>
+        <button class="btn" onclick="filterSelection('history')"> كتب تاريخية</button>
+        <button class="btn" onclick="filterSelection('political')"> كتب سياسية</button>
+        <button class="btn" onclick="filterSelection('ecnomie')"> اقتصاد</button>
+        <button class="btn" onclick="filterSelection('cook')"> طبخ</button>
+        <button class="btn" onclick="filterSelection('stories')"> روايات رومنسية</button>
+
+    </div>
+    <section class=" catigories2 ">
+
+
+
+        <div class="card_catigories2 religious">
+            <img src="../assests/img/catigory/ar-book1 (1).jpg ">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+        <div class="card_catigories2 religious">
+
+            <img src="../assests/img/catigory/ar-book1 (1).jpg ">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+        <div class="card_catigories2 religious">
+            <img src="../assests/img/catigory/step2.png ">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+        <div class="card_catigories2 history">
+            <img src="../assests/img/catigory/step1.png">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+
+        <div class="card_catigories2 political ">
+            <img src="../assests/img/catigory/A2Z.png ">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+
+        <div class="card_catigories2 political">
+            <img src="../assests/img/catigory/A2Z.png">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+        <div class="card_catigories2 ecnomie ">
+            <img src="../assests/img/catigory/ar-book3.jpg ">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+        <div class="card_catigories2 cook">
+            <img src="../assests/img/catigory/ar-book4.jpg ">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+
+        <div class="card_catigories2 stories ">
+            <img src="../assests/img/catigory/ar-book3.jpg ">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+        <div class="card_catigories2 stories">
+            <img src="../assests/img/catigory/ar-book3.jpg ">
+            <div class="book_type ">
+                <h3>كتاب إلكتروني</h3> <img src="../assests/img/logos/ar-book1.svg ">
+            </div>
+            <p> كتاب لأنك الله رحلة الى السماء السابعة لكاتبه علي بن جابر الفيفي </p>
+            <p class="price "> ر.س 24.99</p>
+            <div class="process ">
+                <img src="../assests/img/logos/return.svg ">
+                <img src="../assests/img/logos/red-cart.svg ">
+                <img src="../assests/img/logos/star.svg "></div>
+        </div>
+
+
+    </section>
+
+
+    <script>
+        filterSelection("all")
+
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("card_catigories2");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

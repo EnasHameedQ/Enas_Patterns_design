@@ -1,0 +1,782 @@
+                    @media (min-width:0px) and (max-width:299px) {
+                        nav {
+                            z-index: 1;
+                        }
+                        nav>.nav-btn {
+                            display: inline-block;
+                            position: absolute;
+                            right: 0px;
+                            top: 0px;
+                        }
+                        nav>.nav-btn>label {
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            padding: 13px;
+                        }
+                        nav>.nav-btn>label>span {
+                            display: block;
+                            width: 25px;
+                            height: 10px;
+                            border-top: 2px solid #eee;
+                        }
+                        nav>.nav-links {
+                            position: absolute;
+                            display: block;
+                            width: 100%;
+                            height: 0px;
+                            transition: all 0.3s ease-in;
+                            overflow-y: hidden;
+                            top: 60px;
+                            left: 245px;
+                        }
+                        nav>.nav-links>a {
+                            display: block;
+                            width: 100%;
+                        }
+                        /* nav>#nav-check:checked~.nav-links {
+height: calc(100vh - 50px);
+overflow-y: auto;
+} */
+                        nav>#nav-check:checked~.nav-links {
+                            height: calc(35vh - 50px);
+                            overflow-y: auto;
+                        }
+                        i.fa.fa-cart-plus {
+                            font-size: 30px;
+                            background-color: #e5e9f2;
+                            color: #68758d;
+                            width: 15px;
+                            height: 32px;
+                            border-radius: 50px;
+                            padding: 18px;
+                            position: revert;
+                            /* top: 27px; */
+                            right: 4px;
+                        }
+                        .fa-cart-plus:before {
+                            content: "\f217";
+                            position: relative;
+                            bottom: 12px;
+                            left: 12px;
+                        }
+                        i.fa.fa-cart-plus::before {
+                            bottom: 16px;
+                            left: 30px;
+                        }
+                        i.fa.fa-cart-plus::after {
+                            content: '0';
+                            position: relative;
+                            bottom: 35px;
+                            right: -15px;
+                            color: var(--ancor-color);
+                            font-size: 25px;
+                        }
+                        section.serch_heder img {
+                            width: 50px;
+                        }
+                        .search-container input {
+                            width: 180px;
+                            height: 30px;
+                        }
+                        .input-icons i {
+                            top: 20px;
+                            left: 149px;
+                            position: absolute;
+                            font-size: 15px;
+                            position: absolute;
+                        }
+                        a.prev {
+                            left: 0px;
+                        }
+                        .prev,
+                        .next {
+                            top: 35%
+                        }
+                        .visaCard a img {
+                            width: 35px;
+                            height: 30px;
+                        }
+                        .process img {
+                            padding: 2px;
+                            width: 20px;
+                            height: 20px;
+                        }
+                        section.catigories {
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+                            align-items: flex-start;
+                            margin: 20px;
+                        }
+                        .card_catigories {
+                            max-width: 40%;
+                        }
+                        section.book_details .card_catigories {
+                            max-width: 100%;
+                        }
+                        section.book_details .counnter {
+                            display: flex;
+                            flex-wrap: nowrap;
+                            flex-direction: row;
+                            align-items: baseline;
+                        }
+                        section.book_details {
+                            margin: 5px;
+                            display: flex;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            align-content: space-around;
+                        }
+                        .procedures {
+                            margin: 0px 5px;
+                            display: flex;
+                            justify-content: space-evenly;
+                        }
+                        .bill {
+                            width: 280px;
+                            margin: 10px 0px;
+                        }
+                        .procedures_card {
+                            margin: 5px 5px 5px 0px;
+                        }
+                        .disc {
+                            /* margin-right: 20px; */
+                            width: 290px;
+                        }
+                        section.descriptions,
+                        section.cus_reviews {
+                            border-bottom: 1px solid var(--after-color);
+                            border-radius: 5px;
+                            padding: 5px;
+                            margin: 10px 0px;
+                            width: 295px;
+                        }
+                        .prev,
+                        .next {
+                            position: absolute;
+                            top: 50%;
+                            width: auto;
+                            margin-top: -22px;
+                            padding: 16px;
+                            color: #607d8b;
+                            font-weight: bold;
+                            font-size: 18px;
+                            transition: 0.6s ease;
+                            border-radius: 0 3px 3px 0;
+                        }
+                        section.book_details .card_catigories {
+                            max-width: 85%;
+                        }
+                        section.book_details .bill {
+                            margin: 20px 10px;
+                            padding: 10px;
+                            width: 320px;
+                        }
+                    }
+                    
+                    @media (min-width:310px) and (max-width:600px) {
+                        nav>.nav-btn {
+                            display: inline-block;
+                            position: absolute;
+                            right: 0px;
+                            top: 0px;
+                        }
+                        nav>.nav-btn>label {
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            padding: 13px;
+                        }
+                        nav>.nav-btn>label>span {
+                            display: block;
+                            width: 25px;
+                            height: 10px;
+                            border-top: 2px solid #eee;
+                        }
+                        nav>.nav-links {
+                            position: absolute;
+                            display: block;
+                            width: 100%;
+                            height: 0px;
+                            transition: all 0.3s ease-in;
+                            overflow-y: hidden;
+                            top: 47px;
+                            left: 0px;
+                            background-color: #83c4be;
+                        }
+                        nav>.nav-links>a {
+                            display: block;
+                            width: 100%;
+                        }
+                        .nav>#nav-check:not(:checked)~.nav-links {
+                            height: 0px;
+                        }
+                        .nav>#nav-check:checked~.nav-links {
+                            height: calc(100vh - 50px);
+                            overflow-y: auto;
+                        }
+                        .search-container input {
+                            width: 180px;
+                            height: 30px;
+                        }
+                        .input-icons i {
+                            top: 20px;
+                            left: 149px;
+                            position: absolute;
+                            font-size: 15px;
+                            position: absolute;
+                        }
+                        .changeDir button {
+                            display: none;
+                        }
+                        i.fa.fa-cart-plus {
+                            font-size: 30px;
+                            background-color: #e5e9f2;
+                            color: #68758d;
+                            width: 5px;
+                            height: 32px;
+                            border-radius: 50px;
+                            padding: 20px;
+                            position: revert;
+                            /* top: 27px; */
+                        }
+                        .fa-cart-plus:before {
+                            content: "\f217";
+                            position: relative;
+                            bottom: 12px;
+                            left: 12px;
+                        }
+                        section.serch_heder img {
+                            width: 50px;
+                        }
+                        .checkout {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: flex-start;
+                            flex-wrap: nowrap;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        .det::after {
+                            position: relative;
+                            content: 'منتج قابل للخصم لحاملي بطاقة خصم مكتبة جرير';
+                            color: var( --ancor-color);
+                            top: 50px;
+                            left: 80px;
+                            /* bottom: 42px; */
+                            font-size: 10px;
+                            font-style: italic;
+                            /* margin-bottom: -3px; */
+                        }
+                        .note {
+                            width: 300px;
+                            margin-right: 0px;
+                        }
+                        .note a {
+                            font-size: 12px;
+                        }
+                        .price,
+                        .price_checkout {
+                            font-size: 15px;
+                            font-weight: 700;
+                            flex-direction: column;
+                        }
+                        section.all_categories {
+                            display: flex;
+                            margin: 20px;
+                            flex-wrap: wrap;
+                        }
+                        section.catigories {
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            margin: 20px;
+                            justify-content: space-evenly;
+                        }
+                        section.catigories .type_name,
+                        section.coupons .type_name {
+                            margin-right: 0px;
+                        }
+                        .visaCard a img {
+                            width: 35px;
+                            height: 30px;
+                        }
+                        .process img {
+                            padding: 2px;
+                            width: 20px;
+                            height: 20px;
+                        }
+                        .product .counnter {
+                            margin-right: 250px;
+                            margin-top: -37px;
+                        }
+                        section.book_details .card_catigories {
+                            max-width: 100%;
+                        }
+                        .prev,
+                        .next {
+                            position: absolute;
+                            top: 50%;
+                            width: auto;
+                            margin-top: -22px;
+                            padding: 16px;
+                            color: #607d8b;
+                            font-weight: bold;
+                            font-size: 18px;
+                            transition: 0.6s ease;
+                            border-radius: 0 3px 3px 0;
+                        }
+                        section.book_details .card_catigories {
+                            max-width: 85%;
+                        }
+                        section.book_details .bill {
+                            margin: 20px 10px;
+                            padding: 10px;
+                            width: 320px;
+                        }
+                    }
+                    
+                    @media (min-width:601px) and (max-width:767px) {
+                        nav>.nav-btn {
+                            display: inline-block;
+                            position: absolute;
+                            right: 0px;
+                            top: 0px;
+                        }
+                        nav>.nav-btn>label {
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            padding: 13px;
+                        }
+                        nav>.nav-btn>label>span {
+                            display: block;
+                            width: 25px;
+                            height: 10px;
+                            border-top: 2px solid #eee;
+                        }
+                        nav>.nav-links {
+                            position: absolute;
+                            display: block;
+                            width: 100%;
+                            height: 0px;
+                            transition: all 0.3s ease-in;
+                            overflow-y: hidden;
+                            top: 47px;
+                            left: 0px;
+                            background-color: #83c4be;
+                        }
+                        nav>.nav-links>a {
+                            display: block;
+                            width: 100%;
+                        }
+                        .nav>#nav-check:not(:checked)~.nav-links {
+                            height: 0px;
+                        }
+                        .nav>#nav-check:checked~.nav-links {
+                            height: calc(100vh - 50px);
+                            overflow-y: auto;
+                        }
+                        .list {
+                            font-size: 10px;
+                            padding: 0px 5px;
+                        }
+                        .list a img {
+                            margin-left: 10px;
+                            width: 10px;
+                        }
+                        .search-container input {
+                            height: 35px;
+                            border-radius: 50px;
+                            width: 100px;
+                            margin: 5px;
+                        }
+                        section.serch_heder img {
+                            width: 50px;
+                        }
+                        .input-icons {
+                            width: 100%;
+                            margin: 10px;
+                        }
+                        .input-icons i {
+                            top: 25px;
+                            right: 400px;
+                            font-size: 20px;
+                        }
+                        input.input-field {
+                            padding-left: 260px;
+                        }
+                        i.fa.fa-cart-plus {
+                            font-size: 25px;
+                            background-color: #e5e9f2;
+                            color: #68758d;
+                            width: 5vw;
+                            height: 6vh;
+                            padding: 5px;
+                            border-radius: 25px;
+                        }
+                        .mySlides img {
+                            width: 80vw;
+                            height: 200px;
+                        }
+                        .slideshow-container {
+                            margin: 0px 5px;
+                        }
+                        .foo {
+                            padding: 30px;
+                            display: grid;
+                            grid-template-columns: 2fr 2fr;
+                        }
+                        .foo h2 {
+                            font-size: 15px;
+                        }
+                        .send {
+                            width: 220px;
+                            padding: 10px;
+                        }
+                        .send input {
+                            padding: 5px;
+                            margin-bottom: 10px;
+                            background-color: #eff2f7;
+                            border-radius: 5px;
+                        }
+                        svg.email-icon {
+                            right: 40px;
+                            bottom: 40px;
+                        }
+                        .send button {
+                            padding: 5px;
+                            border-radius: 5px;
+                        }
+                        .foo1 {
+                            margin: 15px 5px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: stretch;
+                            justify-content: flex-end;
+                            flex-wrap: nowrap;
+                            align-content: flex-start;
+                        }
+                        .sociality h2 {
+                            font-size: 15px;
+                            width: 200px;
+                            margin-bottom: 10px;
+                            border-bottom: 1px solid;
+                            padding-right: 35px;
+                            padding-bottom: 10px;
+                            margin-right: 35px;
+                        }
+                        .social img {
+                            width: 20px;
+                        }
+                        .social {
+                            color: white;
+                            margin-right: 50px;
+                        }
+                        footer {
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            display: flex;
+                            background-color: #ccc;
+                            justify-content: center;
+                            height: 200px;
+                            font-size: 30px;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            align-items: center;
+                        }
+                        .visaCard a img {
+                            padding: 5px;
+                            width: 50px;
+                            height: 40px;
+                        }
+                        .checkout {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: flex-start;
+                            flex-wrap: nowrap;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        .det::after {
+                            position: relative;
+                            content: 'منتج قابل للخصم لحاملي بطاقة خصم مكتبة جرير';
+                            color: var( --ancor-color);
+                            top: 50px;
+                            left: 80px;
+                            /* bottom: 42px; */
+                            font-size: 10px;
+                            font-style: italic;
+                            /* margin-bottom: -3px; */
+                        }
+                        .price,
+                        .price_checkout,
+                        .total {
+                            font-size: 14px;
+                            font-weight: 700;
+                        }
+                        .note {
+                            width: 300px;
+                            margin: 45px 20px;
+                        }
+                        .note a {
+                            font-size: 12px;
+                        }
+                        .price,
+                        .price_checkout {
+                            font-size: 15px;
+                            font-weight: 700;
+                            flex-direction: column;
+                        }
+                        section.catigories_all {
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: stretch;
+                            align-content: center;
+                        }
+                        section.catigories_all .card_catigories {
+                            margin-right: 20px;
+                            max-width: 40%;
+                        }
+                        .cat_underline {
+                            width: 95vw;
+                            margin: 0px 10px 5px 14px;
+                        }
+                        section.search\/filter {
+                            margin-bottom: 20px;
+                        }
+                        .show.more {
+                            margin: 20px;
+                        }
+                        p.free {
+                            margin: 5px 15px;
+                        }
+                        a.prev {
+                            left: 8px;
+                        }
+                        .next {
+                            right: 3px;
+                        }
+                        .prev,
+                        .next {
+                            top: 35%;
+                        }
+                        .all_categories .card_catigories {
+                            display: none;
+                        }
+                        section.catigories {
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+                            align-items: flex-start;
+                            margin: 20px;
+                        }
+                        .type_name {
+                            margin-right: 0px;
+                        }
+                        .card_catigories {
+                            max-width: 25%;
+                        }
+                        .checkout .product_list .product {
+                            width: 400px;
+                        }
+                        section.book_details .card_catigories {
+                            margin-bottom: 30px;
+                            max-width: 66%;
+                        }
+                        .row {
+                            flex-direction: row;
+                            display: flex;
+                            flex-wrap: nowrap;
+                            align-content: space-around;
+                            align-items: center;
+                            /* margin-bottom: 14px; */
+                        }
+                        section.book_details {
+                            /* margin: 20px; */
+                            display: flex;
+                            justify-content: space-around;
+                            flex-wrap: wrap;
+                            flex-direction: column;
+                            align-items: center;
+                            align-content: center;
+                        }
+                    }
+                    
+                    @media (min-width:768px) and (max-width:992px) {
+                        .visaCard a img {
+                            /* margin: -14px; */
+                            padding: 5px;
+                            width: 100px;
+                            height: 50px;
+                        }
+                        .list {
+                            font-size: 10px;
+                            padding: 0px 5px;
+                        }
+                        .list a img {
+                            margin-left: 10px;
+                            width: 15px;
+                        }
+                        .input-icons {
+                            width: 100%;
+                            /* margin-bottom: 10px; */
+                        }
+                        .input-icons i {
+                            top: 90px;
+                            right: 420px;
+                        }
+                        .search-container input {
+                            height: 50px;
+                            border-radius: 50px;
+                            width: 300px;
+                            margin: 30px 30px 15px;
+                            padding-left: 335px;
+                            font-size: 15px;
+                        }
+                        section.serch_heder img {
+                            width: 100px;
+                        }
+                        i.fa.fa-cart-plus {
+                            font-size: 40px;
+                            background-color: #e5e9f2;
+                            color: #68758d;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50px;
+                            padding: 8px;
+                            margin-right: 10px;
+                        }
+                        .changeDir button {
+                            background-color: var(--red-color);
+                            color: var( --color);
+                            padding: 9px;
+                            border: 1px solid var(--red-color);
+                            border-radius: 5px;
+                            font-size: 9px;
+                            display: inline-block;
+                            /* flex-wrap: nowrap; */
+                            /* align-items: center; */
+                            /* align-content: center; */
+                        }
+                        .list a {
+                            padding-left: 0px;
+                        }
+                        .det::after {
+                            color: var( --ancor-color);
+                            top: 40px;
+                            left: 130px;
+                        }
+                        section.catigories {
+                            display: flex;
+                            flex-wrap: nowrap;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+                            align-items: flex-start;
+                            margin: 20px;
+                        }
+                        section.catigories .card_catigories {
+                            max-width: 30%;
+                        }
+                        .note {
+                            background-color: #ffeb3b0f;
+                            margin-right: 35px;
+                            padding: 20px;
+                            border-right: 10px solid #ffc10734;
+                            margin: 35px 0px;
+                            border-radius: 5px;
+                            width: 350px;
+                        }
+                        section.all_categories {
+                            display: flex;
+                            margin: 0px;
+                        }
+                        section.all_categories .card_catigories {
+                            max-width: 8%;
+                        }
+                        .type_name {
+                            font-size: 16px;
+                            margin-right: 5px;
+                        }
+                        a.prev {
+                            left: 30px;
+                        }
+                        .next {
+                            right: 26px;
+                        }
+                        .prev,
+                        .next {
+                            top: 70%;
+                        }
+                        .expire {
+                            font-size: 15px;
+                        }
+                        .process img {
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .cat_underline {
+                            width: 73vw;
+                        }
+                        .product {
+                            width: 415px;
+                        }
+                        .product .counnter {
+                            margin-right: 285px;
+                            margin-top: -40px;
+                        }
+                        section.book_details .bill {
+                            width: 380px;
+                            margin-top: 20px;
+                            padding: 10px;
+                        }
+                        .tab .bill {
+                            width: 260px;
+                            padding: 10px;
+                            margin: 0px 20px;
+                        }
+                        .fenish {
+                            width: 235px;
+                            margin: 10px;
+                        }
+                        p.free {
+                            margin: 5px 155px;
+                        }
+                        section.book_details .card_catigories {
+                            max-width: 100%;
+                        }
+                    }
+                    
+                    @media (min-width:993px) and (max-width:1024px) {
+                        .list {
+                            font-size: 14px;
+                        }
+                        .det::after {
+                            top: 35px;
+                            left: 125px;
+                        }
+                        .card_catigories .book_type {
+                            margin: 0px;
+                        }
+                        a.prev {
+                            left: 35px;
+                        }
+                        .next {
+                            right: 5px;
+                        }
+                        .prev,
+                        .next {
+                            top: 53%;
+                        }
+                        .card_catigories .book_type {
+                            margin: 5px;
+                        }
+                    }
