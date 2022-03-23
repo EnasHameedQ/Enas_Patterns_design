@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../../public/assests/css/style.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="../../public/assests/css/mediaquiry.css" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body id="body">
+
+    <!-- nav -->
+    <nav>
+        <!-- start burger menu -->
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+
+            </div>
+
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+        </div>
+        <!-- end burger menu -->
+
+        <!-- start menu -->
+        <div class="nav-links  changeDirection">
+            <ul class="all_list">
+                <!-- login model -->
+
+                <li class=" list login">
+                    <a href="#" onclick="showloginModal()"> <img src="../../public/assests/img/logos/humen.svg " alt="Avatar ">ادخل لحسابك أو سجل الآن </a>
+                </li>
+                <li class="list ">
+                    <a href="index.html " target="_self "> <img src="../../public/assests/img/logos/star.svg " alt="Avatar ">الرئيسية</a>
+                </li>
+                <li class="list ">
+                    <a href="#About " target="_self "><img src="../../public/assests/img/logos/star.svg " alt="Avatar "> من نحن </a>
+                </li>
+                <li class="list ">
+                    <a href="#call " target="_self "> <img src="../../public/assests/img/logos/call.svg " alt="Avatar ">اتصل بنا</a>
+                </li>
+                <li class="list dropdown ">
+                    <a href="#help " target="_self "> <img src="../../public/assests/img/logos/help.svg " alt="Avatar ">المساعدة </a>
+                </li>
+                <li class="list ">
+                    <a href="#security " target="_self "> <img src="../../public/assests/img/logos/security.svg " alt="Avatar ">سياسة الخصوصية </a>
+                </li>
+                <li class="list national-icon ">
+                    <a href="#yemen " target="_self "><img src="../../public/assests/img/logos/ye.svg " alt="Avatar "> YER اليمن</a>
+                </li>
+                <li class=" list english "><a href="#translate " target="_self ">English   <img src="../../public/assests/img/logos/translate.svg " alt="Avatar "></a></li>
+            </ul>
+
+
+            <!-- end menu -->
+
+    </nav>
+    <!-- end nav -->
+    <!-- start header -->
+    <header>
+        <section class="serch_heder">
+            <a href="index.html"> <img src=" ../../public/assests/img/catigory/step3.png " alt="logo " /></a>
+            <div class="search-container ">
+                <form action="/action_page.php ">
+                    <div class="input-icons ">
+                        <i class="fa fa-search icon "></i>
+                        <input class="input-field " type="search " placeholder="ابحث ">
+
+                    </div>
+                </form>
+            </div>
+            <div class="cart ">
+                <a href="pages/checkout.html " target=" "> <i class=" fa fa-cart-plus " aria-hidden="true "></i>
+                </a>
+            </div>
+            <div class="changeDir ">
+                <button type="button " onclick="document.getElementById( 'body').style.direction='ltr' ">
+                    left to right
+                    </button>
+                <button type="button " onclick="document.getElementById( 'body').style.direction='rtl' ">
+                    right to left
+                    </button>
+            </div>
+        </section>
+        <!-- start slider -->
+
+        <!-- Slideshow container -->
+
+        <section class="slideshow-container ">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/category.png ">
+
+            </div>
+
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/juicy.jpg ">
+
+            </div>
+
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/A2Z.png ">
+
+            </div>
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/category.png ">
+
+            </div>
+
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/juicy.jpg ">
+
+            </div>
+
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/A2Z.png ">
+
+            </div>
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/category.png ">
+
+            </div>
+
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/juicy.jpg ">
+
+            </div>
+
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/A2Z.png ">
+
+            </div>
+            <div class="mySlides fade ">
+
+                <img src="../../public/assests/img/catigory/category.png ">
+
+            </div>
+
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev " onclick="plusSlides(-1) ">&#10095;</a>
+            <a class="next " onclick="plusSlides(1) ">&#10094;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div class="doot ">
+                <span class="dot " onclick="currentSlide(1) "></span>
+                <span class="dot " onclick="currentSlide(2) "></span>
+                <span class="dot " onclick="currentSlide(3) "></span>
+                <span class="dot " onclick="currentSlide(4) "></span>
+                <span class="dot " onclick="currentSlide(5) "></span>
+                <span class="dot " onclick="currentSlide(6) "></span>
+                <span class="dot " onclick="currentSlide(7) "></span>
+                <span class="dot " onclick="currentSlide(8) "></span>
+                <span class="dot " onclick="currentSlide(9) "></span>
+                <span class="dot " onclick="currentSlide(10) "></span>
+                <span class="dot " onclick="currentSlide(11) "></span>
+                <span class="dot " onclick="currentSlide(12) "></span>
+            </div>
+        </section>
+        <!-- end container slider -->
+    </header>
+    <!-- end header -->
+    <!--start catigory page -->
+
+    <section class="upper ">
+
+        <!-- تتبع مسار الروابط  -->
+        <ul class="breadcrumb ">
+            <li><a href="# ">الرئسية</a></li>
+            <li><a href="# ">الكتب العربية</a></li>
+            <li><a href="# "> كتب إلكترونية</a></li>
+
+        </ul>
+
+
+        <div class="sort_by ">
+            <label>الترتيب بحسب:</label>
+            <select>
+                <option>الرجاء الأختيار</option>
+                <option>الرجاء الأختيار</option>
+                <option>الرجاء الأختيار</option>
+                <option>3</option>
+            </select>
+        </div>
+    </section>
+    <!-- search/filter side -->
+    <section class="catigories_all">
+        <section class="search/filter ">
+            <div class="filter ">
+                <div class="sub_category ">
+
+                    <h3>كتب إلكترونية</h3>
+                    <img src="../../public/assests/img/catigory/A2Z.png ">
+                </div>
+
+                <div>
+                    <p> عرض النتائج</p>
+                </div>
+                <div class="dropdwon_filter">
+                    <select class="filter_kind ">
+                    <option>علامة تجارية</option>
+                    <option>دار النشر 1</option>
+                    <option>دار النشر 2</option>
+                    <option>دار النشر 3</option>
+                    <option>دار النشر 4</option>
+                    </select>
+                    <br>
+                    <select class="filter_kind ">
+                    
+                    <option> السعر </option>
+                    <option> الريال اليمني ر.ي  </option>
+                    <option> الريال السعودي ر.س  </option>
+                    <option> الدينار الكويتي د.ك</option>
+                    <option> الدولار الامريكي $ </option>
+                    </select>
+
+
+
+                    <div class="filter-price">
+
+                        <div class="price-field">
+                            <input type="range" min="100" max="500" value="135" id="lower">
+                            <input type="range" min="100" max="500" value="500" id="upper">
+                        </div>
+                        <div class="price-wrap">
+
+                            <div class="price-container">
+                                <div class="price-wrap-1">
+
+                                    <label for="one">ر.س</label>
+                                    <input id="one">
+                                </div>
+                                <div class="price-wrap_line">-</div>
+                                <div class="price-wrap-2">
+                                    <label for="two">ر.س</label>
+                                    <input id="two">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <select class="filter_kind ">
+                    <option>صيغة الكتاب</option>
+                    <option>مطبوع</option>
+                    <option>إلكتروني</option>
+
+             </select>
+
+                </div>
+        </section>
+
+
+
+        <!-- end search/filter side -->
+        <!-- start catigories -->
+
+        <section class="catigories_warp ">
+            <div class="catigories_container ">
+
+
+                <div class="card_catigories ">
+                    <a href="book_details.html ">
+                        <img src="../../public/assests/img/catigory/ar-book1 (1).jpg ">
+                        <div class="book_type ">
+                            <h3>كتاب إلكتروني</h3> <img src="../../public/assests/img/logos/ar-book1.svg ">
+                        </div>
+                        <p class="book_name "> كتاب لأنك الله (كتاب إلكتروني)</p>
+
+
+                        <p class="price "> ر.س 24.99</p>
+                    </a>
+                    <div class="process ">
+                        <img src="../../public/assests/img/logos/return.svg ">
+                        <img src="../../public/assests/img/logos/red-cart.svg ">
+                        <img src="../../public/assests/img/logos/star.svg ">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="card_catigories ">
+                    <a href="book_details.html ">
+                        <img src="../../public/assests/img/catigory/ar-book2.jpg ">
+                        <div class="book_type ">
+                            <h3>كتاب إلكتروني</h3> <img src="../../public/assests/img/logos/ar-book1.svg ">
+                        </div>
+                        <p class="book_name "> كتاب لأنك الله (كتاب إلكتروني)</p>
+
+
+                        <p class="price "> ر.س 24.99</p>
+                    </a>
+                    <div class="process ">
+                        <img src="../../public/assests/img/logos/return.svg ">
+                        <img src="../../public/assests/img/logos/red-cart.svg ">
+                        <img src="../../public/assests/img/logos/star.svg ">
+                    </div>
+                </div>
+                <div class="card_catigories ">
+                    <a href="book_details.html ">
+                        <img src="../../public/assests/img/catigory/ar-book3.jpg ">
+                        <div class="book_type ">
+                            <h3>كتاب إلكتروني</h3> <img src="../../public/assests/img/logos/ar-book1.svg ">
+                        </div>
+                        <p class="book_name "> كتاب لأنك الله (كتاب إلكتروني)</p>
+
+
+                        <p class="price "> ر.س 24.99</p>
+                    </a>
+                    <div class="process ">
+                        <img src="../../public/assests/img/logos/return.svg ">
+                        <img src="../../public/assests/img/logos/red-cart.svg ">
+                        <img src="../../public/assests/img/logos/star.svg ">
+                    </div>
+                </div>
+
+
+                <br> <br>
+                <div class="card_catigories ">
+                    <a href="book_details.html ">
+                        <img src="../../public/assests/img/catigory/ar-book6.jpg ">
+                        <div class="book_type ">
+                            <h3>كتاب إلكتروني</h3> <img src="../../public/assests/img/logos/ar-book1.svg ">
+                        </div>
+                        <p class="book_name "> كتاب لأنك الله (كتاب إلكتروني)</p>
+
+
+                        <p class="price "> ر.س 24.99</p>
+                    </a>
+                    <div class="process ">
+                        <img src="../../public/assests/img/logos/return.svg ">
+                        <img src="../../public/assests/img/logos/red-cart.svg ">
+                        <img src="../../public/assests/img/logos/star.svg "></div>
+                </div>
+                <!--  -->
+                <div class="card_catigories ">
+                    <a href="book_details.html ">
+                        <img src="../../public/assests/img/catigory/ar-book3.jpg ">
+                        <div class="book_type ">
+                            <h3>كتاب إلكتروني</h3> <img src="../../public/assests/img/logos/ar-book1.svg ">
+                        </div>
+                        <p class="book_name "> كتاب لأنك الله (كتاب إلكتروني)</p>
+
+
+                        <p class="price "> ر.س 24.99</p>
+                    </a>
+                    <div class="process ">
+                        <img src="../../public/assests/img/logos/return.svg ">
+                        <img src="../../public/assests/img/logos/red-cart.svg ">
+                        <img src="../../public/assests/img/logos/star.svg ">
+                    </div>
+                </div>
+                <div class="card_catigories ">
+                    <a href="book_details.html ">
+                        <img src="../../public/assests/img/catigory/ar-book6.jpg ">
+                        <div class="book_type ">
+                            <h3>كتاب إلكتروني</h3> <img src="../../public/assests/img/logos/ar-book1.svg ">
+                        </div>
+                        <p class="book_name "> كتاب لأنك الله (كتاب إلكتروني)</p>
+
+
+                        <p class="price "> ر.س 24.99</p>
+                    </a>
+                    <div class="process ">
+                        <img src="../../public/assests/img/logos/return.svg ">
+                        <img src="../../public/assests/img/logos/red-cart.svg ">
+                        <img src="../../public/assests/img/logos/star.svg ">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="card_catigories ">
+                    <a href="book_details.html ">
+                        <img src="../../public/assests/img/catigory/ar-book3.jpg ">
+                        <div class="book_type ">
+                            <h3>كتاب إلكتروني</h3> <img src="../../public/assests/img/logos/ar-book1.svg ">
+                        </div>
+                        <p class="book_name "> كتاب لأنك الله (كتاب إلكتروني)</p>
+
+
+                        <p class="price "> ر.س 24.99</p>
+                    </a>
+                    <div class="process ">
+                        <img src="../../public/assests/img/logos/return.svg ">
+                        <img src="../../public/assests/img/logos/red-cart.svg ">
+                        <img src="../../public/assests/img/logos/star.svg "></div>
+                </div>
+                <div class="card_catigories ">
+                    <a href="book_details.html ">
+                        <img src="../../public/assests/img/catigory/ar-book3.jpg ">
+                        <div class="book_type ">
+                            <h3>كتاب إلكتروني</h3> <img src="../../public/assests/img/logos/ar-book1.svg ">
+                        </div>
+                        <p class="book_name "> كتاب لأنك الله (كتاب إلكتروني)</p>
+
+
+                        <p class="price "> ر.س 24.99</p>
+                    </a>
+                    <div class="process ">
+                        <img src="../../public/assests/img/logos/return.svg ">
+                        <img src="../../public/assests/img/logos/red-cart.svg ">
+                        <img src="../../public/assests/img/logos/star.svg "></div>
+                </div>
+            </div>
+            <div class="show_more ">عرض المزيد</div>
+        </section>
+
+
+
+
+        <!-- end categories -->
+    </section>
+    <br> <br>
+    <hr class="cat_underline ">
+    <p class="free ">اشتري من كتب إلكترونية على متجر جرير الإلكتروني</p>
+
+    <!-- -all & categories -->
+
+    <!-- start footer  -->
+    <section class="foot ">
+        <div class="foo ">
+            <div class="foo1 ">
+                <h2>انظم الى نشرتنا البريدية</h2>
+                <div class="send ">
+                    <input type="email " name="email " placeholder="ادخل بريدك الإلكتروني ">
+                    <svg class="email-icon " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 24 24 " width="24 " height="24 ">
+                                        <path fill="none " d="M0 0h24v24H0z " />
+                                        <path
+                                            d="M18 8h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h2V7a6 6 0 1 1 12 0v1zm-7 7.732V18h2v-2.268a2 2 0 1 0-2 0zM16 8V7a4 4 0 1 0-8 0v1h8z " />
+                                    </svg>
+                    <button type="submit " name="submit "> اشتراك</button>
+
+                </div>
+                <br><br>
+
+            </div>
+            <div class="foo1 ">
+                <h2>خدمة العملاء</h2>
+                <ul>
+                    <li>مبيعات الشركة</li>
+                    <li>الاسئلة المتكرر</li>
+                    <li>دليل التسوق والمطبوعات</li>
+                    <li>مواقع المعارض</li>
+                    <li>سياسة الضمان</li>
+                    <li> سياسة الإسترجاع والللإستبدال </li>
+                    <li>تواصل بنا </li>>
+                    <p>77777777777777</p>
+                </ul>
+            </div>
+
+            <div class="foo1 ">
+                <h2>خدمات جرير</h2>
+                <ul>
+                    <li>مبيعات الشركة</li>
+                    <li>الاسئلة المتكرر</li>
+                    <li>دليل التسوق والمطبوعات</li>
+                    <li>مواقع المعارض</li>
+                    <li>سياسة الضمان</li>
+                    <li> سياسة الإسترجاع والللإستبدال </li>
+
+                </ul>
+            </div>
+            <div class="foo1 ">
+
+                <h2>روابط سريعة</h2>
+                <ul>
+                    <li>مبيعات الشركة</li>
+                    <li>الاسئلة المتكرر</li>
+                    <li>دليل التسوق والمطبوعات</li>
+                    <li>مواقع المعارض</li>
+
+
+                </ul>
+
+            </div>
+            <div class="foo1 ">
+
+                <h2>عن جرير</h2>
+                <ul>
+                    <li>مبيعات الشركة</li>
+                    <li>الاسئلة المتكرر</li>
+                    <li>دليل التسوق والمطبوعات</li>
+                    <li>مواقع المعارض</li>
+                    <li>سياسة الضمان</li>
+                    <li> سياسة الإسترجاع والللإستبدال </li>
+                    <li>تواصل بنا </li>
+
+                </ul>
+
+            </div>
+        </div>
+        <div class="sociality ">
+            <h2>تواصل معنا </h2>
+            <div class="social "><img src="../../public/assests/img/logos/facbook.svg " alt="Avatar ">
+                <img src="../../public/assests/img/logos/twiter.svg " alt="Avatar ">
+                <img src="../../public/assests/img/logos/youtup.svg " alt="Avatar ">
+                <img src="../../public/assests/img/logos/instagram.svg " alt="Avatar ">
+                <img src="../../public/assests/img/logos/linkedIn.svg " alt="Avatar ">
+                <img src="../../public/assests/img/logos/snapshat.svg " alt="Avatar ">
+                <img src="../../public/assests/img/logos/tiktok.svg " alt="Avatar ">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="copy-right ">
+            <a href=" ">شروط الخدمة</a> <a href=" ">|  سياسة الخصوصية</a>
+            <p>
+                .جميع الحقوق محفوظة لمكتبة جرير © 2015. س.ت. 1010032264.
+            </p>
+        </div>
+        <div class="visaCard ">
+            <a>
+                <img src="../../public/assests/img/logos/american-ex.svg " alt="Avatar "></a>
+            <a>
+                <img src="../../public/assests/img/logos/master.svg " alt="Avatar "></a>
+            <a>
+                <img src="../../public/assests/img/logos/visa.svg " alt="Avatar "></a>
+            <a>
+                <img src="../../public/assests/img/logos/mada.svg " alt="Avatar ">
+            </a>
+            <a>
+                <img src="../../public/assests/img/logos/qitaf.svg " alt="Avatar ">
+            </a>
+            <a>
+                <img src="../../public/assests/img/logos/payinShop.svg " alt="Avatar ">
+            </a>
+
+
+        </div>
+    </footer>
+    <!-- login &creatAcount models -->
+
+    <section>
+        <div class="login-modal-container " id="login-modal-container ">
+
+            <div class="login-modal-content ">
+                <button class="close-login-modal " onclick="hideloginModal() ">x</button>
+                <h3 class="login-caption ">تسجيل الدخول</h3>
+                <hr class="form-hr ">
+                <form id="login " action="# ">
+                    <div class="login-input-container ">
+                        <input class="login-email " type="email " placeholder="البريد الإلكتروني أو رقم الجوال ">
+                    </div>
+                    <div class="login-input-container ">
+                        <input type="password " class="login-pass " placeholder="كلمة السر "><button class="forgot-pass ">نسيت ؟</button>
+                    </div>
+                    <div class="login-input-container ">
+                        <button class="login-btn ">تسجيل الدخول</button>
+                    </div>
+                    <div class="dont-have-account-container ">
+                        <span class="dont-have-account ">ليس لديك حساب؟</span>
+                        <button class="create-new-account " onclick="showSigninModal() ">إنشاء حساب جديد</button>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+        <div class="signin-modal-container " id="signin-modal-container ">
+            <div class="signin-content-container ">
+                <button class="close-signin-modal " onclick="hidesigninModal() ">x</button>
+                <h3 class="register-caption ">إنشاء حساب</h3>
+                <hr class="form-hr ">
+
+                <div class="signin-form-container ">
+                    <form class="signin-form " id="signin-form ">
+
+                        <div class="signin-row-container ">
+                            <input type="number " class="signin-phonenumber " type="number " placeholder="رقم الجوال ">
+
+                            <div class="custom-select ">
+                                <label class="cuntry ">رمز البلد
+                                </label><span>+967</span>
+                                <div class="arrow "></div>
+
+                                <div class="custom-options ">
+                                    <span class="custom-option selected " data-value="tesla ">+967</span>
+                                    <span class="custom-option " data-value="volvo ">+997</span>
+                                    <span class="custom-option " data-value="mercedes ">+977</span>
+                                </div>
+
+
+
+                                <!-- <script>
+                                    Test//();
+                                </script> -->
+                            </div>
+                        </div>
+
+                        <span style="margin-right: 5px; ">سوف نرسل لك <span style="font-weight: 600; ">رمز التحقق عن طريق رسالة نصية</span></span>
+
+                        <div class="signin-input-container ">
+
+                            <input id="#signin-register-code " type="number " placeholder="إرسال رمز التحقق " class=" ">
+                            <br>
+
+                            <input id="#signin-first-name " type="text " placeholder="الاسم الاول " class=" ">
+                            <br>
+
+                            <input id="#signin-last-name " type="text " placeholder="اسم العائلة " class=" ">
+                            <br>
+
+                            <input id="#signin-email " type="email " placeholder="البريد الإلكتروني " class=" ">
+                            <br>
+
+                            <input id="#signin-pass " type="password " placeholder="كلمة السر " class=" ">
+                            <br>
+                            <input id="#signin-retype-pass " type="password " placeholder="تأكيد كلمة السر " class=" ">
+
+                        </div>
+
+                        <label class="signin-checkbox-container ">
+                                                    <span class="signin-agree ">أوافق على  </span><a href=" ">الشروط والأحكام</a>
+                                                    <input type="checkbox ">
+                            
+                                <br>
+                                <span class="signin-checkmark "></span>
+                                </label>
+
+                        <label class="signin-checkbox-container ">
+                                <span class="signin-register-news ">التسجيل للانظمام للنشرة البريدية</span>
+                                <input type="checkbox ">
+                                
+                                    <span class="signin-checkmark "></span>
+                                </label>
+
+
+
+                        <button type="submit " class="signin-create-account ">إنشاء حساب</button>
+                        <div class="signin-have-account ">
+                            <span>لديك حساب؟</span><a href="# " onclick="showloginModalAgain() "> تسجيل الدخول </a>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+</body>
+<!-- js calling -->
+<script src="../../public/assests/js/main.js "></script>
+
+
+
+</html>
+</body>
+
+</html>
